@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<mappers>
+		<mapper class="com.doobalro.my.biz.mapper.UserMapper"/>
+		<mapper class="com.doobalro.my.biz.mapper.BoardMapper"/>
+		<mapper class="com.doobalro.my.biz.mapper.ReplyMapper"/>
+		<mapper class="com.doobalro.my.biz.mapper.WeatherMapper"/>
+		<mapper class="com.doobalro.my.biz.mapper.BikeStatusMapper"/>
+	</mappers>
+</configuration>
